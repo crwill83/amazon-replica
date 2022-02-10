@@ -1,0 +1,130 @@
+img {
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    padding-bottom: 8px;
+}
+
+#container {
+    border: 1px solid rgb(187, 187, 187);
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin: auto;
+    text-align: left;
+}
+
+.m-text {
+    display: flex;
+    justify-content: space-between;
+    width: 325px;
+    height: 20px;
+    margin-top: 0px;
+}
+
+.p-left {
+    margin-left: 15px;
+}
+
+.form {
+    width: 325px;
+    height: 30px;
+}
+
+.button {
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid black;
+    width: 333px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocks {
+    height:38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+}
+
+#block1 {
+    margin-top: -10px;
+}
+
+.s-text {
+    font-size: 13px;
+
+}
+
+#upn {
+    margin-top: -8px;
+}
+
+#b1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#b2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+#checkbox {
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.b1 {
+    background-color: rgb(243, 208, 121);
+}
+
+h3 {
+    width: 325px;
+    margin: auto;
+    font-size: 15px;
+    color: rgb(131, 131, 131); 
+}
+
+.line{
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.line > span{
+   position: relative;
+   display: inline-block;
+}
+.line > span:before, .line > span:after{
+   content: '';
+   position: absolute;
+   top: 50%;
+   border-bottom: 1px solid rgb(200, 200, 200);
+   width: 591px; /* half of limiter*/
+   margin: 0 20px;
+}
+.line > span:before{
+   right: 100%;
+}
+.line > span:after{
+   left: 100%;
+}
+
+a {
+    color: rgb(48, 140, 255);
+    text-decoration: none;
+}
